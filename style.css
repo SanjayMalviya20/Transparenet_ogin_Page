@@ -1,0 +1,124 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: url("./jellfish.jpg") center center no-repeat;
+
+    color: rgb(247, 251, 252);
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#check {
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    /* margin-top: 40px; */
+
+}
+
+#check>a {
+
+    text-decoration: none;
+    color: rgb(8, 127, 255);
+    font-weight: bolder;
+
+}
+
+#Login {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    height: 600px;
+    border: solid rgb(147, 191, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 50px;
+}
+
+h1 {margin-bottom: 80px;
+    border-bottom: solid rgb(114, 222, 249);
+}
+
+input[type="email"] {
+    background-color: transparent;
+    outline: none;
+    color: aliceblue;
+    border: none;
+}
+
+input[type="password"] {
+    outline: none;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+}
+
+
+#img {
+    width: 40px;
+}
+
+
+#email {
+
+    display: flex;
+    /* justify-content: space-between; */
+    border-radius: 40px;
+    width: 82%;
+    border: solid 2px;
+}
+
+#pass {
+    display: flex;
+    /* justify-content: space-between; */
+    border: solid 2px;
+    border-radius: 40px;
+    padding: 5px;
+    width: 80%;
+
+}
+
+input::placeholder {
+    color: rgb(0, 225, 255);
+
+
+}
+
+input[type="button"]{
+    padding: 19px;
+    width: 190px;
+    font-size: 1.1rem;
+    color: aliceblue;
+    margin-top: 50px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: solid rgb(115, 221, 250);
+}
+input[type="button"]:hover{
+    transition-duration: 0.4s;
+    background-color: rgb(36, 158, 210);
+
+}
+
+input#myemail {
+    width: 500px;
+}
+input#mypass {
+    width: 500px;
+}
+
+/* video{
+
+    position: absolute;
+    right: 0%;
+    bottom:0%;
+    height: 100vh;
+    z-index: -1;
+} */
